@@ -12,7 +12,7 @@ class Country(Base):
 
 
 class CUser(Base):
-    __tablename__ = 'users'
+    __tablename__ = 'cuser'
     id = Column(Integer, primary_key=True)
     fname = Column(String, nullable=False)
     mname = Column(String, nullable=False)
